@@ -1,0 +1,67 @@
+.game {
+  color: white;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+body {
+  background-image: url('E:/SLIIT/3rd Year/CIS/MERN-Auth-Tutorial/frontend/images/top-view-fresh-tomatoes-black-background-with-copy-space.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h2{
+  color: white;
+}
+
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.game-over-message {
+  color: red;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+p.correct {
+  color: green;
+}
+
+p.incorrect {
+  color: red;
+}
+
+.login{
+ color: black;
+}
